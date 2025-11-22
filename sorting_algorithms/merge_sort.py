@@ -12,7 +12,7 @@ def merge_sort(nums: List[int]) -> List[int]:
 
 def merge(first: List[int], second: List[int]) -> List[int]:
     final = []
-    i, j = 0,0
+    i, j = 0, 0
     while i < len(first) and j < len(second):
         if first[i] <= second[j]:
             final.append(first[i])
@@ -27,4 +27,3 @@ def merge(first: List[int], second: List[int]) -> List[int]:
         final.append(second[j])
         j += 1
     return final
-

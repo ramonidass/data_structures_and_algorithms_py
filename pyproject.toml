@@ -1,0 +1,9 @@
+[project]
+name = "data-structures-and-algorithms-py"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "typing>=3.10.0.0",
+]
